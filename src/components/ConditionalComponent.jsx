@@ -27,12 +27,14 @@ export default function ConditionalComponent() {
   // }
 
   //Conditional Rendering Using Element variables
+  // let message;
+  // if (display) {
+  //   message = <h1>This is message 1</h1>;
+  // } else {
+  //   message = <h1>This is message 2</h1>;
+  // }
+  // return message;
 
-  let message;
-  if (display) {
-    message = <h1>This is message 1</h1>;
-  } else {
-    message = <h1>This is message 2</h1>;
-  }
-  return message;
+  //using ternary operators
+  return display ? <Welcome /> : <Code />;
 }
