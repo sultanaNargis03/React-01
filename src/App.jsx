@@ -2,6 +2,7 @@ import Hello from "./components/Hello";
 import Fruits from "./components/Fruits";
 import ConditionalComponent from "./components/ConditionalComponent";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
 function App() {
   //   const person = {
   //     name: "Nargis",
@@ -11,10 +12,7 @@ function App() {
   //   };
   return (
     <div className="App">
-      {/* <Hello person={person}/> */}
-      {/* <Fruits /> */}
-      {/* <ConditionalComponent /> */}
-      <Message />
+      <Counter />
     </div>
   );
 }
