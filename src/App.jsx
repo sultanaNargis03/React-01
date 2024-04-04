@@ -3,6 +3,8 @@ import Fruits from "./components/Fruits";
 import ConditionalComponent from "./components/ConditionalComponent";
 import Message from "./components/Message";
 import Counter from "./components/Counter";
+import FormUser from "./components/FormUser";
+
 function App() {
   //   const person = {
   //     name: "Nargis",
@@ -12,7 +14,7 @@ function App() {
   //   };
   return (
     <div className="App">
-      <Counter />
+      <FormUser />
     </div>
   );
 }
